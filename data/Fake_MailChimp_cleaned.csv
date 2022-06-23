@@ -1,6 +1,6 @@
-,Email Address,First Name,Last Name,Board Member,Gender,Chapter,Reunion Year,Country,Degree,MEMBER_RATING,OPTIN_TIME,OPTIN_IP,CONFIRM_TIME,CONFIRM_IP,LATITUDE,LONGITUDE,GMTOFF,DSTOFF,TIMEZONE,CC,REGION,CLEAN_TIME,CLEAN_CAMPAIGN_TITLE,CLEAN_CAMPAIGN_ID,LEID,EUID,NOTES,TAGS,0
-0,brodriguez369@gmail.com,Barbara,Rodriguez,True,,New England,,USA,,,,,,,,,,,,,,,,,,,,,
-1,liamjones7027@stanfordalumni.org,Liam,Jones,False,M,Bay Area,,USA,,,,,,,,,,,,,,,,,,,,,
-2,lindam7966@alumni.stanford.edu,Liam,Rodriguez,True,,Bay Area,,USA,MD;MA,,,,,,,,,,,,,,,,,,,,
-3,liam.garcia7988@stanfordalumni.org,Liam,Garcia,True,F,New England,,USA,MS,,,,,,,,,,,,,,,,,,,,
-4,m.davis4650@gmail.com,Mary,Johnson,True,,Texas,,USA,,,,,,,,,,,,,,,,,,,,,
+Email Address,First Name,Last Name,Board Member,Gender,Chapter,Reunion Year,Country,Degree,MEMBER_RATING,OPTIN_TIME,OPTIN_IP,CONFIRM_TIME,CONFIRM_IP,LATITUDE,LONGITUDE,GMTOFF,DSTOFF,TIMEZONE,CC,REGION,CLEAN_TIME,CLEAN_CAMPAIGN_TITLE,CLEAN_CAMPAIGN_ID,LEID,EUID,NOTES,TAGS
+brodriguez369@gmail.com,Barbara,Rodriguez,True,,New England,,USA,,,,,,,,,,,,,,,,,,,,
+liamjones7027@stanfordalumni.org,Liam,Jones,False,M,Bay Area,,USA,,,,,,,,,,,,,,,,,,,,
+lindam7966@alumni.stanford.edu,Liam,Rodriguez,True,,Bay Area,,USA,MD;MA,,,,,,,,,,,,,,,,,,,
+liam.garcia7988@stanfordalumni.org,Liam,Garcia,True,F,New England,,USA,MS,,,,,,,,,,,,,,,,,,,
+m.davis4650@gmail.com,Mary,Johnson,True,,Texas,,USA,,,,,,,,,,,,,,,,,,,,
