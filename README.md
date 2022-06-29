@@ -38,6 +38,21 @@ the raw data's column names. From there, a fake dataset was created for them. In
 
 Using the fake datasets, we decided to use cosine similarity to create a list of individuals that matched on the first name. A score of how similar all the records in the Stanford Pride database is produced out of the cosine model that will then be used to sort the list.
 # Results
+Our returned matches are saved in two forms. One is called cosine_sim_results that can be called and the other is
+called SAA query results.
+In the cosine version, only the matching information found on the Mailchimp can be found on this table. The SAA version
+returns all the information that is found on the SAA original dataset. This dataset contains more information as such it
+is subsetted here and in the app to relevant information.
+
+
+**cosine sim results**
+![Img](./Images/cosine_sim_result.png)
+
+**Subsetted SAA version result:**
+![Img](./Images/mytable.png)
+
+# App
+The code for the application can be found on the [app.py](./app.py) file in this GitHub. We decided not to convert this local streamlit app into it's a streamlit website as there is a size limit on streamlit and meant to be a demonstration. Not only that but we are not sure how the Streamlit website deals with data from these applications that do not save data within them. This would be another potential investigation point, but it would be much better if Stanford Pride can use a API call system application to feed in the information. This app as is would require the individual have csv and Excel files with sensitive information downloaded locally and would introduce more potential points of data breach.
 
 # Next Step
 - The model can be further optimized and tuned to account for the rare issues that arises from the datasets.
