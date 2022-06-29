@@ -55,7 +55,7 @@ is subsetted here and in the app to relevant information.
 The code for the application can be found on the [app.py](./app.py) file in this GitHub. We decided not to convert this local streamlit app into it's a streamlit website as there is a size limit on streamlit and meant to be a demonstration. Not only that but we are not sure how the Streamlit website deals with data from these applications that do not save data within them. This would be another potential investigation point, but it would be much better if Stanford Pride can use a API call system application to feed in the information. This app as is would require the individual have csv and Excel files with sensitive information downloaded locally and would introduce more potential points of data breach.
 
 # Next Steps
-- The model can be further optimized and tuned to account for the rare issues that arises from the datasets. For example, adding weights to features that tend to be better indicators to a members identity than others. In addition there are some features that are good indicators when they hold specific values. Exploring weighted cosine similarities may prove benificial to the model's performance.
+- The model can be further optimized and tuned to account for the rare issues that arises from the datasets. For example, adding weights to feature that tend to be better indicators to a members' identity than others. In addition, there are some features that are good indicators when they hold specific values. Exploring weighted cosine similarities may prove beneficial to the model's performance.
 
 
 - Use the Salesforce information through its API. This filtering and model only used the dataset from Mailchimp which is in sync with the Salesforce database. Unfortunately, the Mailchimp data has very limited information compared to its mother database Salesforce as such the information used to match is very limited. As such, being able to potentially match the individual on the bounced Mailchimp data to the Salesforce to increase the potential areas of matches will likely yield better matches to the Stanford Database.
@@ -65,12 +65,18 @@ The code for the application can be found on the [app.py](./app.py) file in this
 
 
 - Take a proactive approach. We would suggest using the salesforce dataset to check for recent grads or to-be-graduates to reach out before they lose their student emails and ask for updated contact information and their subsequent plans after graduation. It would be easier to update records proactively when we still have accurate contact information. For subsequent plans after graduation, this would be to keeping location information of members to more accurately send regional events and functions.
+
+# Running the Notebooks and app
+In the GitHub, a copy of the environment use to run this notebook and the fake dataset notebook can be found. We have provided the [windows environment](./Environment_windows.yml) and [MAC environment](./Environment_mac.yml) versions.
+
 # Repository Structure
 ```
 ├── Data
 ├── Images
 ├── Workspace
 ├── .gitignore
+├── Environment_mac.yml
+├── Environment_windows.yml
 ├── FakeDataset.ipynb
 ├── Stanford Pride Matching System.ipynb
 ├── presentation.pdf
