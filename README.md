@@ -1,8 +1,6 @@
 # Database Matching System
 
-<div>
-<img src="./Images/cropped-Stanford_Pride-S@2x.png" width="300" height = "300" />
-</div>
+![img](./Images/stanfordpride_banner.jpg)
 
 Authors: 
 
