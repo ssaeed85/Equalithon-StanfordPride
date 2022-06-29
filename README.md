@@ -2,7 +2,7 @@
 
 ![img](./Images/stanfordpride_banner.jpg)
 
-The repository for the project can be found at [here](https://github.com/ssaeed85/Equalithon-StanfordPride)
+The repository for the project can be found at [here](https://github.com/ssaeed85/Equalithon-StanfordPride) 
 
 Authors: 
 
