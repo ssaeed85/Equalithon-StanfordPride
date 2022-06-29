@@ -71,19 +71,18 @@ In the GitHub, a copy of the environment use to run this notebook and the fake d
 
 # Repository Structure
 ```
-├── Data
+├── .streamlit
 ├── Images
-├── Workspace
+├── data
+├── src
+├── workspace
 ├── .gitignore
 ├── Environment_mac.yml
 ├── Environment_windows.yml
 ├── FakeDataset.ipynb
-├── Stanford Pride Matching System.ipynb
-├── presentation.pdf
 ├── README.md
-├── app.py
-├── LISCENSE
-└── environment.yml
+├── Stanford Pride Matching System.ipynb
+└── app.py
 
 
 ```
