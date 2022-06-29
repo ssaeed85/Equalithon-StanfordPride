@@ -1,7 +1,9 @@
 [theme]
-backgroundColor="#f7ede1"
-secondaryBackgroundColor="#e0e0e0"
-textColor="#003333"
+primaryColor="#fff5e3"
+backgroundColor="#ececec"
+secondaryBackgroundColor="#ffabab"
+textColor="#000000"
+
 
 [global]
 dataFrameSerialization = "legacy"
