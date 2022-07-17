@@ -1,0 +1,13 @@
+Answer list
+
+MailChimp records were built off of df_SAA records. Therefore, the proposed solution should be able to get the following best matches
+
+
+
+MC_record in MailChimp_Final.csv -> df_SAA record in SAA_FinalDB.xlsx
+0 -> 74
+1 -> 32
+2 -> 37
+3 -> 9
+4 -> 100
+5 -> 11
